@@ -1,0 +1,316 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.all{
+    width: 100%;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(36, 13, 13);
+    justify-content: center;
+}
+header div{
+    color: white;
+    margin-right: 10px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(36, 13, 13);
+    flex-wrap: wrap;
+}
+.dream{
+    width: 80%;
+    display: flex;
+}
+.space{
+    width: 10%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+    position: relative;
+}
+.logo{
+    width: 20%;
+}
+
+nav .side{
+    /* display: none; */
+    list-style: none;
+    /* display: flex; */
+    display: none;
+    width: 20%;
+    height: 50vh;
+    box-shadow: 0px 0px 1rem red;
+    /* background-color: red; */
+    color:green;
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.show{
+    display: none;
+}
+
+nav .bar{
+    display: flex;
+    list-style: none;
+    /* display: none; */
+}
+nav .bar li{
+    margin-right: 40px;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 90px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.build1{
+    height: 60vh;
+    width: 100%;
+}
+.eco{
+    display: flex;
+    text-align: center;
+    line-height: 25px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.eco1{
+    width: 75%;
+}
+
+.come{
+/* font-family: 'Times New Roman', Times, serif; */
+font-family: "Patua One", Arial, Tahoma, sans-serif;
+color:rgb(68, 68, 68);
+font-size: 30px;
+font-weight: 600;
+line-height: 30px;
+}
+.eco h4{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    color:rgb(98, 98, 98);
+}
+.come1{
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
+    color:rgb(98, 98, 98);
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30PX;
+    justify-content: center;
+}
+.bord{
+    width: 30%;
+    height: 0px;
+    border: 1px solid rgb(145, 144, 144);
+   
+}
+
+.wood{
+    font-family: "Patua One", Arial, Tahoma, sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+.caro{
+    width: 100% !important;
+}
+.carousel-inner img{
+    width: 100%;
+}
+
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.img div{
+    /* margin-right: 2%; */
+}
+.images{
+  display: flex;
+  justify-content:space-around;
+  width: 90%;
+ 
+}
+
+
+.der{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+   
+}
+.der1{
+    border: 1px solid gray;
+    width: 80%;
+}
+
+.quote{
+    height: 20vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.quote1{
+    height: 22vh;
+    width: 80%;
+    color: white;
+    background-color: #FE6C61;
+    margin-bottom: 40px;
+   padding: 20px;
+}
+
+.call{
+    font-family: "Patua One", Arial, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.butt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.butt button{
+    height: 60px;
+}
+
+.foot{
+    height: 50vh;
+    width: 100%;
+    background-color: #231C18;
+}
+
+
+
+@media(max-width:1060px){
+    .it{
+        display: none;
+    }
+    header{
+      height: 20vh;
+    }
+    .head{
+        height: 20vh;
+    }
+.home{
+    display: none;
+}
+
+.show{
+    display: inherit;
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+}
+.wood{
+    font-size: 15px;
+    font-weight: 500;
+}
+}
+
+
+@media(max-width:756px){
+    .img{
+        /* display: flex; */
+        justify-content: center;
+        width: 100%;
+        /* background-color: blue; */
+    }
+ .images{
+    display: block;
+    width: 50%;
+    padding: 20px;
+ }
+ .images img{
+    width: 300px;
+    height: 300px;
+ }
+ .images div{
+    margin-bottom: 30px;
+ }
+}
+@media(max-width:609px){
+  .images{
+    width: 60%;
+  }
+}
+
+@media(max-width:553px){
+ header{
+    width: 100%;
+    height: 20vh;
+    /* display: none; */
+ }
+ .images{
+    width: 65%;
+  }
+  .quote, .quote1{
+    height: 100%;
+  }
+}
+
+@media(max-width:467px){
+    .images{
+        width: 70%;
+      }
+   }
+
+   @media(max-width:391px){
+    .images{
+        width: 75%;
+      }
+   }
+
+   @media(max-width:391px){
+    .images{
+        width: 60%;
+      }
+
+      .images img{
+        width: 200px;
+        height: 200px;
+     }
+   }
