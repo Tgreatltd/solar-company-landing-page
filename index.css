@@ -271,7 +271,14 @@ line-height: 30px;
  .images div{
     margin-bottom: 30px;
  }
+ .carousel-inner img{
+    width: 100%;
+    height: 40vh;
 }
+
+}
+
+
 @media(max-width:609px){
   .images{
     width: 60%;
@@ -290,6 +297,11 @@ line-height: 30px;
   .quote, .quote1{
     height: 100%;
   }
+  .carousel-inner img{
+    width: 100%;
+    height: 30vh;
+}
+
 }
 
 @media(max-width:467px){
